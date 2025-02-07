@@ -1,6 +1,6 @@
-package com.tameno.simpleclimbing.mixin;
+package com.tameno.simpleclimbing.mixin.client;
 
-import com.tameno.simpleclimbing.Utils;
+import com.tameno.simpleclimbing.ClientUtils;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import org.spongepowered.asm.mixin.Mixin;
@@ -16,7 +16,7 @@ public abstract class LivingEntityMixin {
         if (
                 (thisEntity instanceof PlayerEntity)
                 && (!thisEntity.isOnGround())
-                && Utils.isTouchingWall(thisEntity)
+                && ClientUtils.isTouchingWall(thisEntity)
         ) {
             cir.setReturnValue(true);
         }

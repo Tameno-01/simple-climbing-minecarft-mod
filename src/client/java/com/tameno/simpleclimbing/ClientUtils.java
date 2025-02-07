@@ -8,7 +8,7 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class Utils {
+public class ClientUtils {
     public static boolean isTouchingWall(Entity entity) {
         Box boundingBox = entity.getBoundingBox();
         World world = entity.getWorld();
