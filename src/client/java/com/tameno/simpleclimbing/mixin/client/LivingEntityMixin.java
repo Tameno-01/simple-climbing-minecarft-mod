@@ -15,6 +15,7 @@ public abstract class LivingEntityMixin {
         LivingEntity thisEntity = (LivingEntity)(Object)this;
         if (
                 (thisEntity instanceof PlayerEntity)
+                && (!thisEntity.isTouchingWater())
                 && (!thisEntity.isOnGround())
                 && ClientUtils.isTouchingWall(thisEntity)
         ) {
