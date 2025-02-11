@@ -20,9 +20,7 @@ public class SimpleClimbingClient implements ClientModInitializer {
 				PacketByteBuf buffer,
 				PacketSender sender
 		) -> {
-
 			canClimb = buffer.readBoolean();
-
 		});
 
 	}

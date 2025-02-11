@@ -3,7 +3,7 @@
 	"id": "simple-climbing",
 	"version": "${version}",
 	"name": "Simple Climbing",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A simple mod that allows players to climb any block like it's a ladder.",
 	"authors": [
 		"Tameno"
 	],
@@ -36,6 +36,5 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
 	}
 }
