@@ -1,1 +1,2 @@
-# simple-climbing-1.20.1
+# Simple Climbing
+A simple minecraft mod that allows players to climb up any block like it's a ladder.
